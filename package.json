@@ -18,10 +18,10 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.9",
     "lucide-react": "^0.453.0",
-    "next": "15.0.0-rc.1",
+    "next": "^14.2.15",
     "next-auth": "5.0.0-beta.23",
-    "react": "19.0.0-rc-cd22717c-20241013",
-    "react-dom": "19.0.0-rc-cd22717c-20241013",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "sass": "^1.80.3",
     "sonner": "^1.5.0",
     "tailwind-merge": "^2.5.4",
@@ -30,19 +30,14 @@
   },
   "devDependencies": {
     "@types/node": "^22.7.7",
-    "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
-    "eslint": "^9.13.0",
-    "eslint-config-next": "^14.2.15",
-    "eslint-config-prettier": "^9.1.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.8",
     "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "@types/react": "npm:types-react@19.0.0-rc.1",
-      "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
-    }
   }
 }
